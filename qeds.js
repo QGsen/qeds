@@ -10,7 +10,7 @@ const notify = $.isNode() ? require('./sendNotify') : '';
 // 公共变量
 const qqreadurl = 'https://mqqapi.reader.qq.com/mqq/user/init'
 // 以下需修改
-const qqreadheader= ''YwSession: 'mh5ealhwphu9u4wm56198fad52o75n12',
+const qqreadheader= {YwSession: 'mh5ealhwphu9u4wm56198fad52o75n12',
   Cookie:
   'ywguid=1046800028;ywkey=ywHW8qZhlUtE;platform=android;channel=mqqmina;mpVersion=0.29.4',
   Referer: 'https://appservice.qq.com/1110657249/0.29.4/page-frame.html','Accept-Language':'zh-cn','Accept-Encoding':'gzip',
@@ -18,16 +18,16 @@ const qqreadheader= ''YwSession: 'mh5ealhwphu9u4wm56198fad52o75n12',
   'Content-Type':'application/json',
   Accept:'*/*',
   HOST: 'mqqapi.reader.qq.com','User-Agent': 'Mozilla%2F5.0+%28Linux%3B+Android+7.1.2%3B+VOG-AL10+Build%2FHUAWEIVOG-AL10%3B+wv%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Version%2F4.0+Chrome%2F75.0.3770.143+Mobile+Safari%2F537.36 QQ/8.4.18.4945 V1_AND_SQ_8.4.18_1558_YYB_D QQ/MiniApp',
-  mpVersion:'0.29.4',''
+  mpVersion:'0.29.4'}
 const qqreadtimeurl = 'https://mqqapi.reader.qq.com/mqq/addReadTimeWithBid?scene=3001&refer=-1&bid=29314315&readTime=6023&read_type=0&conttype=1&read_status=0&chapter_info=%5B%7B%221%22%3A%7B%22readTime%22%3A6023%2C%22pay_status%22%3A0%2C%22is_tail%22%3A0%7D%7D%5D&sp=-1'
-const qqreadtimeheader= ''YwSession: 'mh5ealhwphu9u4wm56198fad52o75n12',
+const qqreadtimeheader= {YwSession: 'mh5ealhwphu9u4wm56198fad52o75n12',
   Cookie: 'ywguid=1046800028;ywkey=ywHW8qZhlUtE;platform=android;channel=mqqmina;mpVersion=0.29.4;qq_ver=8.4.18.4945;os_ver=Android 7.1.2;mpos_ver=1.21.0;platform=android;openid=42BEFBDB7A2326025719AF66AE8095C4',
   Referer: 'https://appservice.qq.com/1110657249/0.29.4/page-frame.html','Accept-Language':'zh-cn','Accept-Encoding':'gzip',
   Connection: 'Keep-Alive',
   'Content-Type':'application/json',
   Accept:'*/*',
   HOST: 'mqqapi.reader.qq.com','User-Agent': 'Mozilla%2F5.0+%28Linux%3B+Android+7.1.2%3B+VOG-AL10+Build%2FHUAWEIVOG-AL10%3B+wv%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Version%2F4.0+Chrome%2F75.0.3770.143+Mobile+Safari%2F537.36 QQ/8.4.18.4945 V1_AND_SQ_8.4.18_1558_YYB_D QQ/MiniApp',
-  mpVersion:'0.29.4',''
+  mpVersion:'0.29.4'}
 // 以上需修改
 const SEND_KEY = ''
 
