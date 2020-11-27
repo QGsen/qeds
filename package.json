@@ -1,0 +1,34 @@
+{
+    "name": "myactions",
+    "version": "1.0.0",
+    "description": "sign everything",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/QGsen/qeds.git"
+    },
+    "keywords": [
+        "sign"
+    ],
+      "author": "QGsen",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/github.com/QGsen/qeds/issues"
+    },
+    "homepage": "https://github.com/github.com/QGsen/qeds#readme",
+    "dependencies": {
+        "request": "^2.88.2",
+        "request-promise": "^4.2.5",
+        "crypto-js": "^4.0.0",
+        "got": "^11.5.1",
+        "http-server": "^0.12.3",
+        "node-schedule": "^1.3.2",
+        "tough-cookie": "^4.0.0",
+        "tunnel": "0.0.6",
+        "axios": "0.20.0",
+        "download": "^8.0.0"
+    }
+}
