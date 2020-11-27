@@ -54,6 +54,7 @@ const cookiesArr = [
       mpversion: "0.29.4",
     }),
   }
+]
 
 var tz = "";
 let num = 0;
