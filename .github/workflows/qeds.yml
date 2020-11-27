@@ -18,7 +18,7 @@ jobs:
     env:
         COOKIE_QQYD: ${{ secrets.COOKIE_QQYD }}
     steps:
-      - - name: Checkout
+      - name: Checkout
         uses: actions/checkout@v2
         with:
           repository: QGsen/qeds
