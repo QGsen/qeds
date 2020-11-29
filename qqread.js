@@ -117,7 +117,7 @@ const cookiesArr = [
       "Accept-Encoding": "gzip, deflate, br",
       mpversion: "0.30.0",
     }),
-  }
+  },
 ]
 
 var tz = "";
