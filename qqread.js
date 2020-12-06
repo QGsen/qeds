@@ -182,6 +182,38 @@ const cookiesArr = [
       mpversion: "0.30.0",
     }),
   },
+  {
+    qqreadheaderVal: JSON.stringify({
+      ywsession: "uxctxt7tpsx1prah4py6rsyz8pqg5tdl",
+      Cookie:
+          "ywguid=1283675711;ywkey=ywWdYSE1rjzN;platform=android;channel=mqqmina;mpVersion=0.31.0",
+      Connection: "keep-alive",
+      "Content-Type": "application/json",
+      Accept: "*/*",
+      Host: "mqqapi.reader.qq.com",
+      "User-Agent": "Mozilla/5.0 (Linux; Android 7.1.2; VOG-AL10 Build/HUAWEIVOG-AL10; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/75.0.3770.143 Mobile Safari/537.36 QQ/MiniApp",
+      Referer: "https://appservice.qq.com/1110657249/0.31.0/page-frame.html",
+      "Accept-Language": "zh-cn",
+      "Accept-Encoding": "gzip, deflate, br",
+      mpversion: "0.31.0",
+    }),
+    qqreadtimeurlVal:
+        "https://mqqapi.reader.qq.com/mqq/addReadTimeWithBid?scene=1007&refer=-1&bid=31725405&readTime=6611&read_type=0&conttype=1&read_status=0&chapter_info=%5B%7B%221%22%3A%7B%22readTime%22%3A6611%2C%22pay_status%22%3A0%2C%22is_tail%22%3A0%7D%7D%5D&sp=-1",
+    qqreadtimeheaderVal: JSON.stringify({
+      ywsession: "uxctxt7tpsx1prah4py6rsyz8pqg5tdl",
+      Cookie:
+          "ywguid=ywguid=1283675711;ywkey=ywWdYSE1rjzN;platform=android;channel=mqqmina;mpVersion=0.31.0;qq_ver=8.3.0;os_ver=Android 7.1.2;mpos_ver=1.13.0;platform=android;openid=DF7916053A971145F0824B1353B6D2C0",
+      Connection: "keep-alive",
+      "Content-Type": "application/json",
+      Accept: "*/*",
+      Host: "mqqapi.reader.qq.com",
+      "User-Agent": "Mozilla/5.0 (Linux; Android 7.1.2; VOG-AL10 Build/HUAWEIVOG-AL10; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/75.0.3770.143 Mobile Safari/537.36 QQ/MiniApp",
+      Referer: "https://appservice.qq.com/1110657249/0.31.0/page-frame.html",
+      "Accept-Language": "zh-cn",
+      "Accept-Encoding": "gzip, deflate, br",
+      mpversion: "0.31.0",
+    }),
+  },
 ]
 
 var tz = "";
