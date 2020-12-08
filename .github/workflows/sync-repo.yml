@@ -1,5 +1,6 @@
 name: 同步ZIYE仓库
 on:
+  workflow_dispatch:
   schedule:
     - cron: '0 */6 * * *'
   watch:
