@@ -216,7 +216,7 @@ const cookiesArr = [
   },
   {
     qqreadheaderVal: JSON.stringify({
-      ywsession: "oz3tufnhtd6wl022pvwpdagvp0e6p5df",
+      ywsession: "x66h6l9yuminz77xutc6t4eb6xktd27a",
       Cookie:
           "ywguid=2784250394;ywkey=ywnDSsSxEFTW;platform=android;channel=mqqmina;mpVersion=0.31.0",
       Connection: "keep-alive",
@@ -232,7 +232,7 @@ const cookiesArr = [
     qqreadtimeurlVal:
         "https://mqqapi.reader.qq.com/mqq/addReadTimeWithBid?scene=3001&refer=pages%2Fbook-category%2Findex&bid=34013622&readTime=2344&read_type=0&conttype=1&read_status=0&chapter_info=%5B%7B%221%22%3A%7B%22readTime%22%3A2344%2C%22pay_status%22%3A0%7D%7D%5D&sp=-1",
     qqreadtimeheaderVal: JSON.stringify({
-      ywsession: "oz3tufnhtd6wl022pvwpdagvp0e6p5df",
+      ywsession: "x66h6l9yuminz77xutc6t4eb6xktd27a",
       Cookie:
           "ywguid=2784250394;ywkey=ywnDSsSxEFTW;platform=android;channel=mqqmina;mpVersion=0.31.0;qq_ver=8.2.8;os_ver=Android 7.0;mpos_ver=1.12.1;platform=android;openid=DF7916053A971145F0824B1353B6D2C0",
       Connection: "keep-alive",
